@@ -57,7 +57,7 @@ The following code is used to plot the resulting displacement field
 ```
 which looks like
 
-![uniform](/assets/img/posts/def-grad1.png)
+![uniform](/assets/img/posts/def-grad1.png){: .shadow}
 
 Note that there is no stretching but merely a uniform displacement of 1 unit along the x-axis.
 
@@ -90,7 +90,7 @@ The following code is used to plot the resulting displacement field
 ```
 which looks like
 
-![linear](/assets/img/posts/def-grad2.png)
+![linear](/assets/img/posts/def-grad2.png){: .shadow}
 
 Note that now there is a linear variation in the stretching along the x-axis.
 
@@ -122,7 +122,7 @@ The following code is used to plot the resulting displacement field
 ```
 which looks like
 
-![shear](/assets/img/posts/def-grad3.png)
+![shear](/assets/img/posts/def-grad3.png){: .shadow}
 
 This is a case of simple shear where the solid is sheared along the x-axis. Note the **F** in this case and the significance of its values.
 
@@ -155,5 +155,5 @@ The following code is used to plot the resulting displacement field
 ```
 which looks like
 
-![mix](/assets/img/posts/def-grad4.png)
+![mix](/assets/img/posts/def-grad4.png){: .shadow}
 

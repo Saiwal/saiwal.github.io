@@ -14,7 +14,7 @@ Complex Analysis is a topic which is not very easy to grasp. While the mathemati
 A complex function is usually written as $ w = f(z) $, here w is referred to as the image of z and f is the transformation function which maps the complex plane z to w. The image of z (w) is plotted on another plane which is obtained after the transformation f. A sample is shown below where the z-plane is translated by adding another complex number to it.
  \\[ w = z + (2 + 3j) \\]
 
-![mapping1](/assets/img/posts/mapping1.jpg)
+![mapping1](/assets/img/posts/mapping1.jpg){: .shadow}
 
 It is clearly visible that the indicated region has translated by 2 units along the real axis and 3 units along the imaginary axis.
 
@@ -63,7 +63,7 @@ When $ w = z*(a + jb) $ the effect is that of stretching and subsequent rotation
 
 The plot is shown below, note that the rotation and stretching do not depend on the sequence in which it is done.
 
-![mapping2](/assets/img/posts/mapping2.jpg)
+![mapping2](/assets/img/posts/mapping2.jpg){: .shadow}
 
 ### Example II (Inverse of z)
 
@@ -106,11 +106,11 @@ Now we try to see how $ 1/z $ looks when plotted. This mapping has a singularity
 
 The plot is shown below, note the inversion that happens. Also the mapping may be verified manually by computing the maps of the four corner points.
 
-![mapping3](/assets/img/posts/mapping3.png)
+![mapping3](/assets/img/posts/mapping3.png){: .shadow}
 
 Another plot showing the whole plane,
 
-![mapping7](/assets/img/posts/mapping7.jpg)
+![mapping7](/assets/img/posts/mapping7.jpg){: .shadow}
 
 ### Example III (Simple rotation without stretching)
 
@@ -121,19 +121,19 @@ lets see the effect of multiplying by different comlplex numbers.
 #### Multiplying by j
 This results in rotation by $ \pi/2 $
 
-![mapping4](/assets/img/posts/mapping4.jpg)
+![mapping4](/assets/img/posts/mapping4.jpg){: .shadow}
 
 #### Multiplying by 0.6 + 0.8j
 Again the modulus is 1,
 Argument = 64.6 deg
 
-![mapping5](/assets/img/posts/mapping5.jpg)
+![mapping5](/assets/img/posts/mapping5.jpg){: .shadow}
 
 #### Multiplying by 0.98 + 0.2j
 Modulus = 1
 Argument = 11.53 deg
 
-![mapping6](/assets/img/posts/mapping6.jpg)
+![mapping6](/assets/img/posts/mapping6.jpg){: .shadow}
 
 ### Example III (rasing z to a power)
 $ z^n $ can be interpreted as raising the modulus to power n and multiplying the argument $ \theta $ by $ n $.
@@ -142,4 +142,4 @@ $ z^n $ can be interpreted as raising the modulus to power n and multiplying the
 
 I plotted the domain from Re(0,3) and Im(0,3) to $ z^2 $ and the result is shown. It is clearly visible that the argument is multiplied by 2 and the modulus is squared.
 
-![mapping8](/assets/img/posts/mapping8.jpg)
+![mapping8](/assets/img/posts/mapping8.jpg){: .shadow}
