@@ -2,9 +2,10 @@
 
 <div id="sidebar" class="d-flex flex-column align-items-end">
   <div class="profile-wrapper">
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+    
       {% if site.avatar != empty and site.avatar %}
-        {% capture avatar_url %}
+      <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+      {% capture avatar_url %}
             {% if site.avatar contains '://' %}
               {{ site.avatar }}
             {% elsif site.img_cdn != empty and site.img_cdn %}
@@ -14,8 +15,9 @@
             {% endif %}
           {% endcapture %}
         <img src="{{ avatar_url | strip }}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      </a>
       {% endif %}
-    </a>
+  
 
     <div class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -60,7 +62,7 @@
 
     {% for entry in site.data.contact %}
       {% case entry.type %}
-        {% when 'github' %}
+        {% when 'github' 'mastodon' %}
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
