@@ -14,7 +14,7 @@ Complex Analysis is a topic which is not very easy to grasp. While the mathemati
 A complex function is usually written as $ w = f(z) $, here w is referred to as the image of z and f is the transformation function which maps the complex plane z to w. The image of z (w) is plotted on another plane which is obtained after the transformation f. A sample is shown below where the z-plane is translated by adding another complex number to it.
  \\[ w = z + (2 + 3j) \\]
 
-![mapping1]({attach}mapping1.jpg)
+![mapping1](/assets/img/posts/mapping1.jpg)
 
 It is clearly visible that the indicated region has translated by 2 units along the real axis and 3 units along the imaginary axis.
 
@@ -63,7 +63,7 @@ When $ w = z*(a + jb) $ the effect is that of stretching and subsequent rotation
 
 The plot is shown below, note that the rotation and stretching do not depend on the sequence in which it is done.
 
-![mapping2]({attach}mapping2.jpg)
+![mapping2](/assets/img/posts/mapping2.jpg)
 
 ### Example II (Inverse of z)
 
