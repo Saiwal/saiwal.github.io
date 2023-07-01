@@ -129,6 +129,8 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+collections_dir: my_collections
+
 collections:
   tabs:
     output: true
@@ -163,6 +165,7 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+
 
 sass:
   style: compressed
