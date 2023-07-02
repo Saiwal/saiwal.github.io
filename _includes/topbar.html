@@ -34,12 +34,6 @@
                 {{ site.data.locales[include.lang].tabs[item] | default: page.title }}
               </a>
             </span>
-          {% else %}  
-          <span>
-            <a href="{{ item | relative_url }}">
-              {{ site.data.locales[include.lang].tabs[item] | default: item|capitalize }}
-            </a>
-          </span>
           {% endif %}
         {% endfor %}
       {% endif %}
