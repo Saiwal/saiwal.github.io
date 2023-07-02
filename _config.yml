@@ -41,7 +41,6 @@ social:
   email: saiwalkrishna@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://mastodon.social/@sk0
 
 google_site_verification: # fill in to your verification string
 
@@ -114,7 +113,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 5
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -135,7 +134,13 @@ collections:
   tabs:
     output: true
     sort_by: order
-  galleries:
+  gallery:
+    output: true
+    sort_by: order
+  channels:
+    output: true
+    sort_by: title
+  projects:
     output: true
     sort_by: order
 
@@ -169,11 +174,23 @@ defaults:
     values:
       swcache: true
   - scope:
-      path: _galleries
+      path: _gallery
     values:
-      layout: gallery
+      layout: page
       permalink: /gallery/:title/
-
+      comments: true # Enable comments in posts.
+  - scope:
+      path: _projects
+    values:
+      layout: page
+      permalink: /projects/:title/
+      comments: true # Enable comments in posts.
+  - scope:
+      path: _channels
+    values:
+      layout: page
+      permalink: /channels/:title/
+      comments: true # Enable comments in posts.
 
 sass:
   style: compressed

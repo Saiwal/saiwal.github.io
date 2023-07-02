@@ -46,17 +46,6 @@
       </li>
       <!-- .nav-item -->
     {% endfor %}
-    {% for coll in site.galleries %}
-    <li class="nav-item{% if coll.url == page.url %}{{ " active" }}{% endif %}">
-      <a href="{{ coll.url | relative_url }}" class="nav-link">
-        <i class="fa-fw {{ coll.icon }}"></i>
-        {% capture coll_name %}{{ coll.url | split: '/' }}{% endcapture %}
-
-        <span>{{ site.data.locales[include.lang].collections.[coll_name] | default: coll.title | upcase }}</span>
-      </a>
-    </li>
-    <!-- .nav-item -->
-    {% endfor %}
   </ul>
   <!-- ul.nav.flex-column -->
 
