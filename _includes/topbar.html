@@ -27,13 +27,6 @@
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
-
-          {% elsif page.layout == 'category' or page.layout == 'tag' %}
-            <span>
-              <a href="{{ item | relative_url }}">
-                {{ site.data.locales[include.lang].tabs[item] | default: page.title }}
-              </a>
-            </span>
           {% endif %}
         {% endfor %}
       {% endif %}
