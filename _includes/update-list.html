@@ -22,6 +22,7 @@
 {% endfor %}
 
 {% if update_list.size > 0 %}
+<div class="access">
   <div id="access-lastmod" class="post">
     <div class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</div>
     <ul class="post-content list-unstyled ps-0 pb-1 ms-1 mt-2">
@@ -36,4 +37,5 @@
     </ul>
   </div>
   <!-- #access-lastmod -->
-{% endif %}
+</div>
+  {% endif %}
